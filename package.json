@@ -1,0 +1,24 @@
+{
+    "name": "task-management-app",
+    "version": "1.0.0",
+    "description": "React Task Management App",
+    "homepage": "https://yourusername.github.io/task-management-app",
+    "scripts": {
+      "deploy": "gh-pages -d ."
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "@mui/material": "^5.11.0",
+      "@emotion/react": "^11.10.5",
+      "@emotion/styled": "^11.10.5",
+      "@mui/icons-material": "^5.11.0",
+      "@dnd-kit/core": "^6.0.8",
+      "@dnd-kit/sortable": "^7.0.2",
+      "@dnd-kit/utilities": "^3.2.1",
+      "@dnd-kit/modifiers": "^6.0.1"
+    },
+    "devDependencies": {
+      "gh-pages": "^5.0.0"
+    }
+  }
